@@ -15,3 +15,9 @@ let jonas_david = "JD";
 let $funny = 3.1415;
 
 let myFirstJob = "coder";
+let myCurrentJob = "Teatcher";
+
+let job1 = "designer";
+let job_2 = "analyst";
+
+console.log(job1 , job_2);
