@@ -2,9 +2,10 @@ const measureKelvin = function () {
     const measurement = {
         type : 'temps',
         unit : 'celsius',
-        value : prompt("Degrees celsius : "),
+        value : Number(prompt("Degrees celsius : ")),
     };
     console.log(measurement);
+    console.table(measurement)
     
     // console.log(measurement.value);
     // console.warn(measurement.value);
