@@ -19,4 +19,4 @@ const measureKelvin = function () {
 
 console.log(measureKelvin());
 console.warn(measurement.unit);
-console.error(measurement.type)
+console.error(measurement.type);
