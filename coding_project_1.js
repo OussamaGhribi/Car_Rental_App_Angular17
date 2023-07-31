@@ -5,6 +5,8 @@ document.querySelector('.check').addEventListener('click',function(){
 
     if (!guess) {
         document.querySelector('.message').textContent = 'No Number';
+        document.querySelector('.score').textContent += score;
+        score--;
     }else if (guess === secretNumber) {
         document.querySelector('.message').textContent = 'Correct Number';
     }else if (guess > secretNumber) {
@@ -16,5 +18,6 @@ document.querySelector('.check').addEventListener('click',function(){
     }else {
         document.querySelector('.message').textContent = 'You lost the game';
         document.querySelector('.score').textContent = 0;
+        score = 0;
     }
 })
