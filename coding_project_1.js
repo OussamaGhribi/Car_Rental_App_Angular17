@@ -13,5 +13,8 @@ document.querySelector('.check').addEventListener('click',function(){
     }else if (guess < secretNumber) {
         document.querySelector('.message').textContent = 'Number too low';
         score--;
+    }else {
+        document.querySelector('.message').textContent = 'You lost the game';
+        document.querySelector('.score').textContent = 0;
     }
 })
