@@ -9,4 +9,7 @@ const calcAge = function (temps) {
         if (curtemps < min) min = curtemps;
         if (curtemps > max) max = curtemps;
     }
+    console.log(min , max);
 }
+
+calcAge(t);
