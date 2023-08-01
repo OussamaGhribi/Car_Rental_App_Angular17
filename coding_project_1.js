@@ -21,3 +21,15 @@ document.querySelector('.check').addEventListener('click',function(){
         score = 0;
     }
 })
+
+/*============================================================================== */
+
+document.querySelector('.again').addEventListener('click', function (){
+    score = 20;
+    secretNumber = Math.trunc(Math.random()*20 ) + 1 ; 
+
+    document.querySelector('.score').textContent = score;
+    document.querySelector('.messsage').textContent = "start guessing";
+    document.querySelector('.number').textContent = '?' 
+    
+})
