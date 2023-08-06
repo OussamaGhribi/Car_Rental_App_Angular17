@@ -39,5 +39,17 @@ btnRoll.addEventListener('click' , function() {
         player0EL.classList.toggle("active-player");
         player1EL.classList.toggle("active-player");
     }
-})
+});
+btnHold.addEventListener('click', function() {
+    scores[activePlayer] += currentScore;
+    
+    document.getElementById(`current--${activePlayer}`).textContent = scores[activePlayer];
+
+    if (scores[activePlayer] >= 20){
+        document.querySelector(`player--${activePlayer}`).classList.add('player--winner');
+        document.querySelector(`player--${activePlayer}`).classList.remove('player--active');
+    }else{
+        switchPlayer();
+    }
+});
 
