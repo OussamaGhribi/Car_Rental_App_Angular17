@@ -13,3 +13,7 @@ const btnHold = document.querySelector('.btn--hold');
 const scores = [0,0];
 let currentScore = 0;
 let activePlayer = 0;
+
+score0EL.textContent = 0;
+score1EL.textContent = 0;
+diceEL.classList.add("hidden");
