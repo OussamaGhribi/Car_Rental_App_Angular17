@@ -55,6 +55,7 @@ The app is built using **Angular 17**, and the goal is to provide a minimalistic
   npm install -g @angular/cli
   ```
   ##Installation Steps
+  
   1.Clone the repository:
    ```bash
    git clone https://github.com/OussamaGhribi/Car_Rental_App_Angular17.git
