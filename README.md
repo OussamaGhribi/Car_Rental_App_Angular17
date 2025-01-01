@@ -59,7 +59,7 @@ The app is built using **Angular 17**, and the goal is to provide a minimalistic
    ```bash
    git clone https://github.com/OussamaGhribi/Car_Rental_App_Angular17.git
   ```
-  2. Navigate to the project directory
+  2-Navigate to the project directory
       ```bash
       cd Car_Rental_App_Angular17
       ```
