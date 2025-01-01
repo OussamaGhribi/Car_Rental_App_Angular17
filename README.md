@@ -60,18 +60,18 @@ The app is built using **Angular 17**, and the goal is to provide a minimalistic
    ```bash
    git clone https://github.com/OussamaGhribi/Car_Rental_App_Angular17.git
   ```
-  2. Navigate to the project directory
+  2- Navigate to the project directory
       ```bash
       cd Car_Rental_App_Angular17
       ```
-  3.Install Dependencies Run the following command to install the necessary dependencies :
+  3- Install Dependencies Run the following command to install the necessary dependencies :
      ```bash
      npm install
      ```
-  4.Run the Application After the dependencies are installed, run the app with: :
+  4- Run the Application After the dependencies are installed, run the app with: :
      ```bash
      ng serve
      ```
-  5.open the app on your browser :
+  5- open the app on your browser :
      - The app will be available at http://localhost:4200.
 
